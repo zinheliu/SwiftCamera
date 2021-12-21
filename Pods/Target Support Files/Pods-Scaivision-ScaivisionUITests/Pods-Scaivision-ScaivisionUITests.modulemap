@@ -1,0 +1,6 @@
+framework module Pods_Scaivision_ScaivisionUITests {
+  umbrella header "Pods-Scaivision-ScaivisionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

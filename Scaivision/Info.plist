@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>AWS</key>
+        <dict>
+            <key>CredentialsProvider</key>
+            <dict>
+                <key>CognitoIdentity</key>
+                <dict>
+                    <key>Default</key>
+                    <dict>
+                        <key>PoolId</key>
+                        <string>ap-northeast-1:25525d14-4071-47d0-97b8-42b915401fc0</string>
+                        <key>Region</key>
+                        <string>ap-northeast-1</string>
+                    </dict>
+                </dict>
+            </dict>
+            <key>S3TransferManager</key>
+            <dict>
+                <key>Default</key>
+                <dict>
+                    <key>Region</key>
+                    <string>ap-northeast-1</string>
+                </dict>
+            </dict>
+        </dict>
+        <key>CFBundleIconName</key>
+        <string>Icon Assets Name</string>
+        <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSAllowsArbitraryLoads</key>
+            <true/>
+            <key>NSExceptionDomains</key>
+            <dict>
+                <key>amazonaws.com</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                    <string>TLSv1.0</string>
+                    <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                    <false/>
+                </dict>
+                <key>amazonaws.com.cn</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                    <string>TLSv1.0</string>
+                    <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                    <false/>
+                </dict>
+            </dict>
+        </dict>
+</dict>
+</plist>
