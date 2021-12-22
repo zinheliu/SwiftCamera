@@ -7,274 +7,285 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56E3B19A50FC93EC1C10417B /* Pods_Scaivision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414A45A9CA1DAD8513828A89 /* Pods_Scaivision.framework */; };
-		5A02ADDE276B5368003FF5BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A02ADDD276B5368003FF5BA /* AppDelegate.swift */; };
-		5A02ADE0276B9025003FF5BA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A02ADDF276B9025003FF5BA /* InfoView.swift */; };
-		5A02ADE2276BCE89003FF5BA /* ScaiAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A02ADE1276BCE89003FF5BA /* ScaiAPIManager.swift */; };
-		5A02ADE4276BCEDB003FF5BA /* ScaiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A02ADE3276BCEDB003FF5BA /* ScaiModel.swift */; };
-		5A77AE932769306A00A37517 /* ScaivisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77AE922769306A00A37517 /* ScaivisionApp.swift */; };
-		5A77AE952769306A00A37517 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77AE942769306A00A37517 /* CameraView.swift */; };
-		5A77AE972769306D00A37517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A77AE962769306D00A37517 /* Assets.xcassets */; };
-		5A77AE9A2769306D00A37517 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A77AE992769306D00A37517 /* Preview Assets.xcassets */; };
-		5A77AEA42769306D00A37517 /* ScaivisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77AEA32769306D00A37517 /* ScaivisionTests.swift */; };
-		5A77AEAE2769306D00A37517 /* ScaivisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77AEAD2769306D00A37517 /* ScaivisionUITests.swift */; };
-		5A77AEB02769306D00A37517 /* ScaivisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77AEAF2769306D00A37517 /* ScaivisionUITestsLaunchTests.swift */; };
-		5A77AEBD276937AF00A37517 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77AEBC276937AF00A37517 /* CameraController.swift */; };
-		5A77AEBF276B335400A37517 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77AEBE276B335400A37517 /* ImagePicker.swift */; };
-		5A77AEC1276B4B1300A37517 /* AWSS3Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77AEC0276B4B1300A37517 /* AWSS3Manager.swift */; };
-		5CF1AA29B070EFF46F924951 /* Pods_Scaivision_ScaivisionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4CE3A93EC27EB0E945378 /* Pods_Scaivision_ScaivisionUITests.framework */; };
-		6B011DCFEF17075AC17EDBCF /* Pods_ScaivisionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8332A66600A1FEF2C2F186BB /* Pods_ScaivisionTests.framework */; };
+		13A3EB8C7CAEC17B43DCFC63 /* Pods_ScaiVision_ScaiVisionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7934FBA7D4BB6215472048 /* Pods_ScaiVision_ScaiVisionUITests.framework */; };
+		1975CCED276B15C900F0D34D /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1975CCEC276B15C900F0D34D /* HeaderView.xib */; };
+		21E99FB5D56F31FB9ED13230 /* Pods_ScaiVisionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0AFE34960B6EFF96C4B6B4 /* Pods_ScaiVisionTests.framework */; };
+		5A23EF9B27626A8400FF31F0 /* CameraControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A23EF9A27626A8400FF31F0 /* CameraControl.swift */; };
+		5A6DA640276774EE0058F91F /* AWSS3Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6DA63F276774EE0058F91F /* AWSS3Manager.swift */; };
+		5AC4DD30276105AA003F192C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4DD2F276105AA003F192C /* AppDelegate.swift */; };
+		5AC4DD34276105AA003F192C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4DD33276105AA003F192C /* ViewController.swift */; };
+		5AC4DD37276105AA003F192C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC4DD35276105AA003F192C /* Main.storyboard */; };
+		5AC4DD39276105AE003F192C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC4DD38276105AE003F192C /* Assets.xcassets */; };
+		5AC4DD3C276105AE003F192C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC4DD3A276105AE003F192C /* LaunchScreen.storyboard */; };
+		5AC4DD47276105AE003F192C /* ScaiVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4DD46276105AE003F192C /* ScaiVisionTests.swift */; };
+		5AC4DD51276105AE003F192C /* ScaiVisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4DD50276105AE003F192C /* ScaiVisionUITests.swift */; };
+		5AC4DD53276105AE003F192C /* ScaiVisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4DD52276105AE003F192C /* ScaiVisionUITestsLaunchTests.swift */; };
+		5ADF5F322772CB3200134EB0 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF5F312772CB3200134EB0 /* TagCollectionViewCell.swift */; };
+		5ADF5F352773119700134EB0 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF5F342773119700134EB0 /* DescriptionTableViewCell.swift */; };
+		5AE92CE02766A10B00D7F95D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE92CDF2766A10B00D7F95D /* InfoViewController.swift */; };
+		5AE92CE22766A11800D7F95D /* ScaiAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE92CE12766A11800D7F95D /* ScaiAPIManager.swift */; };
+		CF46671123E83543D7D0195F /* Pods_ScaiVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01C361AEAD0026ABC33348B /* Pods_ScaiVision.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5A77AEA02769306D00A37517 /* PBXContainerItemProxy */ = {
+		5AC4DD43276105AE003F192C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5A77AE872769306A00A37517 /* Project object */;
+			containerPortal = 5AC4DD24276105AA003F192C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5A77AE8E2769306A00A37517;
-			remoteInfo = Scaivision;
+			remoteGlobalIDString = 5AC4DD2B276105AA003F192C;
+			remoteInfo = ScaiVision;
 		};
-		5A77AEAA2769306D00A37517 /* PBXContainerItemProxy */ = {
+		5AC4DD4D276105AE003F192C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5A77AE872769306A00A37517 /* Project object */;
+			containerPortal = 5AC4DD24276105AA003F192C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5A77AE8E2769306A00A37517;
-			remoteInfo = Scaivision;
+			remoteGlobalIDString = 5AC4DD2B276105AA003F192C;
+			remoteInfo = ScaiVision;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		323E5D97BA4B819827190026 /* Pods-Scaivision-ScaivisionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaivision-ScaivisionUITests.debug.xcconfig"; path = "Target Support Files/Pods-Scaivision-ScaivisionUITests/Pods-Scaivision-ScaivisionUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		414A45A9CA1DAD8513828A89 /* Pods_Scaivision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scaivision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A02ADDC276B528B003FF5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		5A02ADDD276B5368003FF5BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A02ADDF276B9025003FF5BA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		5A02ADE1276BCE89003FF5BA /* ScaiAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaiAPIManager.swift; sourceTree = "<group>"; };
-		5A02ADE3276BCEDB003FF5BA /* ScaiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaiModel.swift; sourceTree = "<group>"; };
-		5A77AE8F2769306A00A37517 /* Scaivision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scaivision.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A77AE922769306A00A37517 /* ScaivisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaivisionApp.swift; sourceTree = "<group>"; };
-		5A77AE942769306A00A37517 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		5A77AE962769306D00A37517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A77AE992769306D00A37517 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5A77AE9F2769306D00A37517 /* ScaivisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaivisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A77AEA32769306D00A37517 /* ScaivisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaivisionTests.swift; sourceTree = "<group>"; };
-		5A77AEA92769306D00A37517 /* ScaivisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaivisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A77AEAD2769306D00A37517 /* ScaivisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaivisionUITests.swift; sourceTree = "<group>"; };
-		5A77AEAF2769306D00A37517 /* ScaivisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaivisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5A77AEBC276937AF00A37517 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
-		5A77AEBE276B335400A37517 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		5A77AEC0276B4B1300A37517 /* AWSS3Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSS3Manager.swift; sourceTree = "<group>"; };
-		66641BADDA01634D1BC1A5F0 /* Pods-Scaivision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaivision.debug.xcconfig"; path = "Target Support Files/Pods-Scaivision/Pods-Scaivision.debug.xcconfig"; sourceTree = "<group>"; };
-		8332A66600A1FEF2C2F186BB /* Pods_ScaivisionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScaivisionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A19DF76D76A5C5D4895D592B /* Pods-Scaivision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaivision.release.xcconfig"; path = "Target Support Files/Pods-Scaivision/Pods-Scaivision.release.xcconfig"; sourceTree = "<group>"; };
-		BEE4CE3A93EC27EB0E945378 /* Pods_Scaivision_ScaivisionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scaivision_ScaivisionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDA50DE638F98F244109276B /* Pods-ScaivisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaivisionTests.debug.xcconfig"; path = "Target Support Files/Pods-ScaivisionTests/Pods-ScaivisionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6CEC7DA3C591F51D5E74871 /* Pods-ScaivisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaivisionTests.release.xcconfig"; path = "Target Support Files/Pods-ScaivisionTests/Pods-ScaivisionTests.release.xcconfig"; sourceTree = "<group>"; };
-		F942FD8ED747874AF0FFE9E2 /* Pods-Scaivision-ScaivisionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaivision-ScaivisionUITests.release.xcconfig"; path = "Target Support Files/Pods-Scaivision-ScaivisionUITests/Pods-Scaivision-ScaivisionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		07655C60219EF2B7C9D53D16 /* Pods-ScaiVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaiVision.debug.xcconfig"; path = "Target Support Files/Pods-ScaiVision/Pods-ScaiVision.debug.xcconfig"; sourceTree = "<group>"; };
+		1975CCEC276B15C900F0D34D /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		20E699D397326F3C3E80F693 /* Pods-ScaiVisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaiVisionTests.release.xcconfig"; path = "Target Support Files/Pods-ScaiVisionTests/Pods-ScaiVisionTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A23EF9A27626A8400FF31F0 /* CameraControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControl.swift; sourceTree = "<group>"; };
+		5A6DA63F276774EE0058F91F /* AWSS3Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSS3Manager.swift; sourceTree = "<group>"; };
+		5AC4DD2C276105AA003F192C /* ScaiVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaiVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC4DD2F276105AA003F192C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AC4DD33276105AA003F192C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AC4DD36276105AA003F192C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AC4DD38276105AE003F192C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AC4DD3B276105AE003F192C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AC4DD3D276105AE003F192C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC4DD42276105AE003F192C /* ScaiVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaiVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC4DD46276105AE003F192C /* ScaiVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaiVisionTests.swift; sourceTree = "<group>"; };
+		5AC4DD4C276105AE003F192C /* ScaiVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaiVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC4DD50276105AE003F192C /* ScaiVisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaiVisionUITests.swift; sourceTree = "<group>"; };
+		5AC4DD52276105AE003F192C /* ScaiVisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaiVisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5ADF5F312772CB3200134EB0 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		5ADF5F342773119700134EB0 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		5AE92CDF2766A10B00D7F95D /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5AE92CE12766A11800D7F95D /* ScaiAPIManager.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = ScaiAPIManager.swift; sourceTree = "<group>"; };
+		6A7934FBA7D4BB6215472048 /* Pods_ScaiVision_ScaiVisionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScaiVision_ScaiVisionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7605D7421002E15D8E8ADE4B /* Pods-ScaiVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaiVision.release.xcconfig"; path = "Target Support Files/Pods-ScaiVision/Pods-ScaiVision.release.xcconfig"; sourceTree = "<group>"; };
+		7CC0D8B605237A1C0101AD2E /* Pods-ScaiVision-ScaiVisionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaiVision-ScaiVisionUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScaiVision-ScaiVisionUITests/Pods-ScaiVision-ScaiVisionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B14EBC19AB0E538BD37B6EF /* Pods-ScaiVision-ScaiVisionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaiVision-ScaiVisionUITests.release.xcconfig"; path = "Target Support Files/Pods-ScaiVision-ScaiVisionUITests/Pods-ScaiVision-ScaiVisionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99BDDE23E23D064E9D48714D /* Pods-ScaiVisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaiVisionTests.debug.xcconfig"; path = "Target Support Files/Pods-ScaiVisionTests/Pods-ScaiVisionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0AFE34960B6EFF96C4B6B4 /* Pods_ScaiVisionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScaiVisionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01C361AEAD0026ABC33348B /* Pods_ScaiVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScaiVision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5A77AE8C2769306A00A37517 /* Frameworks */ = {
+		5AC4DD29276105AA003F192C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56E3B19A50FC93EC1C10417B /* Pods_Scaivision.framework in Frameworks */,
+				CF46671123E83543D7D0195F /* Pods_ScaiVision.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A77AE9C2769306D00A37517 /* Frameworks */ = {
+		5AC4DD3F276105AE003F192C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B011DCFEF17075AC17EDBCF /* Pods_ScaivisionTests.framework in Frameworks */,
+				21E99FB5D56F31FB9ED13230 /* Pods_ScaiVisionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A77AEA62769306D00A37517 /* Frameworks */ = {
+		5AC4DD49276105AE003F192C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CF1AA29B070EFF46F924951 /* Pods_Scaivision_ScaivisionUITests.framework in Frameworks */,
+				13A3EB8C7CAEC17B43DCFC63 /* Pods_ScaiVision_ScaiVisionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A77AE862769306A00A37517 = {
+		5AC4DD23276105AA003F192C = {
 			isa = PBXGroup;
 			children = (
-				5A77AE912769306A00A37517 /* Scaivision */,
-				5A77AEA22769306D00A37517 /* ScaivisionTests */,
-				5A77AEAC2769306D00A37517 /* ScaivisionUITests */,
-				5A77AE902769306A00A37517 /* Products */,
-				66BCCAF34E71F685DE572EBF /* Pods */,
-				989922155A146E1F967155E5 /* Frameworks */,
+				5AC4DD2E276105AA003F192C /* ScaiVision */,
+				5AC4DD45276105AE003F192C /* ScaiVisionTests */,
+				5AC4DD4F276105AE003F192C /* ScaiVisionUITests */,
+				5AC4DD2D276105AA003F192C /* Products */,
+				C630FEF9652A4E1970954CC6 /* Pods */,
+				95B9113DAFA34AB1B78DD9FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5A77AE902769306A00A37517 /* Products */ = {
+		5AC4DD2D276105AA003F192C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A77AE8F2769306A00A37517 /* Scaivision.app */,
-				5A77AE9F2769306D00A37517 /* ScaivisionTests.xctest */,
-				5A77AEA92769306D00A37517 /* ScaivisionUITests.xctest */,
+				5AC4DD2C276105AA003F192C /* ScaiVision.app */,
+				5AC4DD42276105AE003F192C /* ScaiVisionTests.xctest */,
+				5AC4DD4C276105AE003F192C /* ScaiVisionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A77AE912769306A00A37517 /* Scaivision */ = {
+		5AC4DD2E276105AA003F192C /* ScaiVision */ = {
 			isa = PBXGroup;
 			children = (
-				5A02ADDC276B528B003FF5BA /* Info.plist */,
-				5A02ADDD276B5368003FF5BA /* AppDelegate.swift */,
-				5A77AEC0276B4B1300A37517 /* AWSS3Manager.swift */,
-				5A77AE922769306A00A37517 /* ScaivisionApp.swift */,
-				5A02ADE1276BCE89003FF5BA /* ScaiAPIManager.swift */,
-				5A02ADE3276BCEDB003FF5BA /* ScaiModel.swift */,
-				5A77AEBC276937AF00A37517 /* CameraController.swift */,
-				5A77AE942769306A00A37517 /* CameraView.swift */,
-				5A77AEBE276B335400A37517 /* ImagePicker.swift */,
-				5A02ADDF276B9025003FF5BA /* InfoView.swift */,
-				5A77AE962769306D00A37517 /* Assets.xcassets */,
-				5A77AE982769306D00A37517 /* Preview Content */,
+				5ADF5F332773118100134EB0 /* DescriptionTableView */,
+				5ADF5F2E2772CAD900134EB0 /* TagCollectionView */,
+				5AC4DD2F276105AA003F192C /* AppDelegate.swift */,
+				5A6DA63F276774EE0058F91F /* AWSS3Manager.swift */,
+				5AE92CE12766A11800D7F95D /* ScaiAPIManager.swift */,
+				5A23EF9A27626A8400FF31F0 /* CameraControl.swift */,
+				5AE92CDF2766A10B00D7F95D /* InfoViewController.swift */,
+				5AC4DD33276105AA003F192C /* ViewController.swift */,
+				5AC4DD35276105AA003F192C /* Main.storyboard */,
+				5AC4DD38276105AE003F192C /* Assets.xcassets */,
+				5AC4DD3A276105AE003F192C /* LaunchScreen.storyboard */,
+				5AC4DD3D276105AE003F192C /* Info.plist */,
+				1975CCEC276B15C900F0D34D /* HeaderView.xib */,
 			);
-			path = Scaivision;
+			path = ScaiVision;
 			sourceTree = "<group>";
 		};
-		5A77AE982769306D00A37517 /* Preview Content */ = {
+		5AC4DD45276105AE003F192C /* ScaiVisionTests */ = {
 			isa = PBXGroup;
 			children = (
-				5A77AE992769306D00A37517 /* Preview Assets.xcassets */,
+				5AC4DD46276105AE003F192C /* ScaiVisionTests.swift */,
 			);
-			path = "Preview Content";
+			path = ScaiVisionTests;
 			sourceTree = "<group>";
 		};
-		5A77AEA22769306D00A37517 /* ScaivisionTests */ = {
+		5AC4DD4F276105AE003F192C /* ScaiVisionUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5A77AEA32769306D00A37517 /* ScaivisionTests.swift */,
+				5AC4DD50276105AE003F192C /* ScaiVisionUITests.swift */,
+				5AC4DD52276105AE003F192C /* ScaiVisionUITestsLaunchTests.swift */,
 			);
-			path = ScaivisionTests;
+			path = ScaiVisionUITests;
 			sourceTree = "<group>";
 		};
-		5A77AEAC2769306D00A37517 /* ScaivisionUITests */ = {
+		5ADF5F2E2772CAD900134EB0 /* TagCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				5A77AEAD2769306D00A37517 /* ScaivisionUITests.swift */,
-				5A77AEAF2769306D00A37517 /* ScaivisionUITestsLaunchTests.swift */,
+				5ADF5F312772CB3200134EB0 /* TagCollectionViewCell.swift */,
 			);
-			path = ScaivisionUITests;
+			path = TagCollectionView;
 			sourceTree = "<group>";
 		};
-		66BCCAF34E71F685DE572EBF /* Pods */ = {
+		5ADF5F332773118100134EB0 /* DescriptionTableView */ = {
 			isa = PBXGroup;
 			children = (
-				66641BADDA01634D1BC1A5F0 /* Pods-Scaivision.debug.xcconfig */,
-				A19DF76D76A5C5D4895D592B /* Pods-Scaivision.release.xcconfig */,
-				323E5D97BA4B819827190026 /* Pods-Scaivision-ScaivisionUITests.debug.xcconfig */,
-				F942FD8ED747874AF0FFE9E2 /* Pods-Scaivision-ScaivisionUITests.release.xcconfig */,
-				CDA50DE638F98F244109276B /* Pods-ScaivisionTests.debug.xcconfig */,
-				D6CEC7DA3C591F51D5E74871 /* Pods-ScaivisionTests.release.xcconfig */,
+				5ADF5F342773119700134EB0 /* DescriptionTableViewCell.swift */,
 			);
-			path = Pods;
+			path = DescriptionTableView;
 			sourceTree = "<group>";
 		};
-		989922155A146E1F967155E5 /* Frameworks */ = {
+		95B9113DAFA34AB1B78DD9FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				414A45A9CA1DAD8513828A89 /* Pods_Scaivision.framework */,
-				BEE4CE3A93EC27EB0E945378 /* Pods_Scaivision_ScaivisionUITests.framework */,
-				8332A66600A1FEF2C2F186BB /* Pods_ScaivisionTests.framework */,
+				B01C361AEAD0026ABC33348B /* Pods_ScaiVision.framework */,
+				6A7934FBA7D4BB6215472048 /* Pods_ScaiVision_ScaiVisionUITests.framework */,
+				AE0AFE34960B6EFF96C4B6B4 /* Pods_ScaiVisionTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C630FEF9652A4E1970954CC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07655C60219EF2B7C9D53D16 /* Pods-ScaiVision.debug.xcconfig */,
+				7605D7421002E15D8E8ADE4B /* Pods-ScaiVision.release.xcconfig */,
+				7CC0D8B605237A1C0101AD2E /* Pods-ScaiVision-ScaiVisionUITests.debug.xcconfig */,
+				8B14EBC19AB0E538BD37B6EF /* Pods-ScaiVision-ScaiVisionUITests.release.xcconfig */,
+				99BDDE23E23D064E9D48714D /* Pods-ScaiVisionTests.debug.xcconfig */,
+				20E699D397326F3C3E80F693 /* Pods-ScaiVisionTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A77AE8E2769306A00A37517 /* Scaivision */ = {
+		5AC4DD2B276105AA003F192C /* ScaiVision */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A77AEB32769306D00A37517 /* Build configuration list for PBXNativeTarget "Scaivision" */;
+			buildConfigurationList = 5AC4DD56276105AE003F192C /* Build configuration list for PBXNativeTarget "ScaiVision" */;
 			buildPhases = (
-				B0B94D7343DB4E918869E149 /* [CP] Check Pods Manifest.lock */,
-				5A77AE8B2769306A00A37517 /* Sources */,
-				5A77AE8C2769306A00A37517 /* Frameworks */,
-				5A77AE8D2769306A00A37517 /* Resources */,
-				AB5FE1D1432F95CB7189DAD2 /* [CP] Embed Pods Frameworks */,
+				F41DE04B148B8BAD91035DD5 /* [CP] Check Pods Manifest.lock */,
+				5AC4DD28276105AA003F192C /* Sources */,
+				5AC4DD29276105AA003F192C /* Frameworks */,
+				5AC4DD2A276105AA003F192C /* Resources */,
+				1479F99D3F1EC8920A98285B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Scaivision;
-			productName = Scaivision;
-			productReference = 5A77AE8F2769306A00A37517 /* Scaivision.app */;
+			name = ScaiVision;
+			productName = ScaiVision;
+			productReference = 5AC4DD2C276105AA003F192C /* ScaiVision.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5A77AE9E2769306D00A37517 /* ScaivisionTests */ = {
+		5AC4DD41276105AE003F192C /* ScaiVisionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A77AEB62769306D00A37517 /* Build configuration list for PBXNativeTarget "ScaivisionTests" */;
+			buildConfigurationList = 5AC4DD59276105AE003F192C /* Build configuration list for PBXNativeTarget "ScaiVisionTests" */;
 			buildPhases = (
-				6C5C5CA869199AE459E77090 /* [CP] Check Pods Manifest.lock */,
-				5A77AE9B2769306D00A37517 /* Sources */,
-				5A77AE9C2769306D00A37517 /* Frameworks */,
-				5A77AE9D2769306D00A37517 /* Resources */,
+				8FBCD1EBEB4D9D2DD7F5CB30 /* [CP] Check Pods Manifest.lock */,
+				5AC4DD3E276105AE003F192C /* Sources */,
+				5AC4DD3F276105AE003F192C /* Frameworks */,
+				5AC4DD40276105AE003F192C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5A77AEA12769306D00A37517 /* PBXTargetDependency */,
+				5AC4DD44276105AE003F192C /* PBXTargetDependency */,
 			);
-			name = ScaivisionTests;
-			productName = ScaivisionTests;
-			productReference = 5A77AE9F2769306D00A37517 /* ScaivisionTests.xctest */;
+			name = ScaiVisionTests;
+			productName = ScaiVisionTests;
+			productReference = 5AC4DD42276105AE003F192C /* ScaiVisionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5A77AEA82769306D00A37517 /* ScaivisionUITests */ = {
+		5AC4DD4B276105AE003F192C /* ScaiVisionUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A77AEB92769306D00A37517 /* Build configuration list for PBXNativeTarget "ScaivisionUITests" */;
+			buildConfigurationList = 5AC4DD5C276105AE003F192C /* Build configuration list for PBXNativeTarget "ScaiVisionUITests" */;
 			buildPhases = (
-				108A837B567665534920017A /* [CP] Check Pods Manifest.lock */,
-				5A77AEA52769306D00A37517 /* Sources */,
-				5A77AEA62769306D00A37517 /* Frameworks */,
-				5A77AEA72769306D00A37517 /* Resources */,
-				367DC68215706206A4A12468 /* [CP] Embed Pods Frameworks */,
+				85AD8D0011D11DF0E50E5D38 /* [CP] Check Pods Manifest.lock */,
+				5AC4DD48276105AE003F192C /* Sources */,
+				5AC4DD49276105AE003F192C /* Frameworks */,
+				5AC4DD4A276105AE003F192C /* Resources */,
+				C26F0E5AB1B1FBAEDA1B97D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5A77AEAB2769306D00A37517 /* PBXTargetDependency */,
+				5AC4DD4E276105AE003F192C /* PBXTargetDependency */,
 			);
-			name = ScaivisionUITests;
-			productName = ScaivisionUITests;
-			productReference = 5A77AEA92769306D00A37517 /* ScaivisionUITests.xctest */;
+			name = ScaiVisionUITests;
+			productName = ScaiVisionUITests;
+			productReference = 5AC4DD4C276105AE003F192C /* ScaiVisionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5A77AE872769306A00A37517 /* Project object */ = {
+		5AC4DD24276105AA003F192C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					5A77AE8E2769306A00A37517 = {
+					5AC4DD2B276105AA003F192C = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					5A77AE9E2769306D00A37517 = {
+					5AC4DD41276105AE003F192C = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 5A77AE8E2769306A00A37517;
+						TestTargetID = 5AC4DD2B276105AA003F192C;
 					};
-					5A77AEA82769306D00A37517 = {
+					5AC4DD4B276105AE003F192C = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 5A77AE8E2769306A00A37517;
+						TestTargetID = 5AC4DD2B276105AA003F192C;
 					};
 				};
 			};
-			buildConfigurationList = 5A77AE8A2769306A00A37517 /* Build configuration list for PBXProject "Scaivision" */;
+			buildConfigurationList = 5AC4DD27276105AA003F192C /* Build configuration list for PBXProject "ScaiVision" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -282,36 +293,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 5A77AE862769306A00A37517;
-			productRefGroup = 5A77AE902769306A00A37517 /* Products */;
+			mainGroup = 5AC4DD23276105AA003F192C;
+			productRefGroup = 5AC4DD2D276105AA003F192C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A77AE8E2769306A00A37517 /* Scaivision */,
-				5A77AE9E2769306D00A37517 /* ScaivisionTests */,
-				5A77AEA82769306D00A37517 /* ScaivisionUITests */,
+				5AC4DD2B276105AA003F192C /* ScaiVision */,
+				5AC4DD41276105AE003F192C /* ScaiVisionTests */,
+				5AC4DD4B276105AE003F192C /* ScaiVisionUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5A77AE8D2769306A00A37517 /* Resources */ = {
+		5AC4DD2A276105AA003F192C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A77AE9A2769306D00A37517 /* Preview Assets.xcassets in Resources */,
-				5A77AE972769306D00A37517 /* Assets.xcassets in Resources */,
+				5AC4DD3C276105AE003F192C /* LaunchScreen.storyboard in Resources */,
+				5AC4DD39276105AE003F192C /* Assets.xcassets in Resources */,
+				5AC4DD37276105AA003F192C /* Main.storyboard in Resources */,
+				1975CCED276B15C900F0D34D /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A77AE9D2769306D00A37517 /* Resources */ = {
+		5AC4DD40276105AE003F192C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A77AEA72769306D00A37517 /* Resources */ = {
+		5AC4DD4A276105AE003F192C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,7 +334,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		108A837B567665534920017A /* [CP] Check Pods Manifest.lock */ = {
+		1479F99D3F1EC8920A98285B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScaiVision/Pods-ScaiVision-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScaiVision/Pods-ScaiVision-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScaiVision/Pods-ScaiVision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85AD8D0011D11DF0E50E5D38 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,31 +366,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Scaivision-ScaivisionUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ScaiVision-ScaiVisionUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		367DC68215706206A4A12468 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Scaivision-ScaivisionUITests/Pods-Scaivision-ScaivisionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Scaivision-ScaivisionUITests/Pods-Scaivision-ScaivisionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scaivision-ScaivisionUITests/Pods-Scaivision-ScaivisionUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6C5C5CA869199AE459E77090 /* [CP] Check Pods Manifest.lock */ = {
+		8FBCD1EBEB4D9D2DD7F5CB30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,31 +388,31 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ScaivisionTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ScaiVisionTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AB5FE1D1432F95CB7189DAD2 /* [CP] Embed Pods Frameworks */ = {
+		C26F0E5AB1B1FBAEDA1B97D4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Scaivision/Pods-Scaivision-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ScaiVision-ScaiVisionUITests/Pods-ScaiVision-ScaiVisionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Scaivision/Pods-Scaivision-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ScaiVision-ScaiVisionUITests/Pods-ScaiVision-ScaiVisionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scaivision/Pods-Scaivision-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScaiVision-ScaiVisionUITests/Pods-ScaiVision-ScaiVisionUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B0B94D7343DB4E918869E149 /* [CP] Check Pods Manifest.lock */ = {
+		F41DE04B148B8BAD91035DD5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -414,7 +427,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Scaivision-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ScaiVision-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,56 +437,74 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5A77AE8B2769306A00A37517 /* Sources */ = {
+		5AC4DD28276105AA003F192C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A02ADDE276B5368003FF5BA /* AppDelegate.swift in Sources */,
-				5A77AEC1276B4B1300A37517 /* AWSS3Manager.swift in Sources */,
-				5A77AEBD276937AF00A37517 /* CameraController.swift in Sources */,
-				5A77AEBF276B335400A37517 /* ImagePicker.swift in Sources */,
-				5A02ADE4276BCEDB003FF5BA /* ScaiModel.swift in Sources */,
-				5A02ADE2276BCE89003FF5BA /* ScaiAPIManager.swift in Sources */,
-				5A77AE952769306A00A37517 /* CameraView.swift in Sources */,
-				5A77AE932769306A00A37517 /* ScaivisionApp.swift in Sources */,
-				5A02ADE0276B9025003FF5BA /* InfoView.swift in Sources */,
+				5ADF5F352773119700134EB0 /* DescriptionTableViewCell.swift in Sources */,
+				5A23EF9B27626A8400FF31F0 /* CameraControl.swift in Sources */,
+				5A6DA640276774EE0058F91F /* AWSS3Manager.swift in Sources */,
+				5AC4DD34276105AA003F192C /* ViewController.swift in Sources */,
+				5ADF5F322772CB3200134EB0 /* TagCollectionViewCell.swift in Sources */,
+				5AC4DD30276105AA003F192C /* AppDelegate.swift in Sources */,
+				5AE92CE22766A11800D7F95D /* ScaiAPIManager.swift in Sources */,
+				5AE92CE02766A10B00D7F95D /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A77AE9B2769306D00A37517 /* Sources */ = {
+		5AC4DD3E276105AE003F192C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A77AEA42769306D00A37517 /* ScaivisionTests.swift in Sources */,
+				5AC4DD47276105AE003F192C /* ScaiVisionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A77AEA52769306D00A37517 /* Sources */ = {
+		5AC4DD48276105AE003F192C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A77AEB02769306D00A37517 /* ScaivisionUITestsLaunchTests.swift in Sources */,
-				5A77AEAE2769306D00A37517 /* ScaivisionUITests.swift in Sources */,
+				5AC4DD53276105AE003F192C /* ScaiVisionUITestsLaunchTests.swift in Sources */,
+				5AC4DD51276105AE003F192C /* ScaiVisionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5A77AEA12769306D00A37517 /* PBXTargetDependency */ = {
+		5AC4DD44276105AE003F192C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5A77AE8E2769306A00A37517 /* Scaivision */;
-			targetProxy = 5A77AEA02769306D00A37517 /* PBXContainerItemProxy */;
+			target = 5AC4DD2B276105AA003F192C /* ScaiVision */;
+			targetProxy = 5AC4DD43276105AE003F192C /* PBXContainerItemProxy */;
 		};
-		5A77AEAB2769306D00A37517 /* PBXTargetDependency */ = {
+		5AC4DD4E276105AE003F192C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5A77AE8E2769306A00A37517 /* Scaivision */;
-			targetProxy = 5A77AEAA2769306D00A37517 /* PBXContainerItemProxy */;
+			target = 5AC4DD2B276105AA003F192C /* ScaiVision */;
+			targetProxy = 5AC4DD4D276105AE003F192C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		5AC4DD35276105AA003F192C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC4DD36276105AA003F192C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AC4DD3A276105AE003F192C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC4DD3B276105AE003F192C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		5A77AEB12769306D00A37517 /* Debug */ = {
+		5AC4DD54276105AE003F192C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -534,7 +565,7 @@
 			};
 			name = Debug;
 		};
-		5A77AEB22769306D00A37517 /* Release */ = {
+		5AC4DD55276105AE003F192C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -589,32 +620,34 @@
 			};
 			name = Release;
 		};
-		5A77AEB42769306D00A37517 /* Debug */ = {
+		5AC4DD57276105AE003F192C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66641BADDA01634D1BC1A5F0 /* Pods-Scaivision.debug.xcconfig */;
+			baseConfigurationReference = 07655C60219EF2B7C9D53D16 /* Pods-ScaiVision.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Scaivision/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = V5SBXJJP96;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Scaivision/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Usage";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Library Usage";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ScaiVision/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScaiVision;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take Photo and record Video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow to record automatically";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to save photo assets";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.scai.scai-vision";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scai.ScaiVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -622,32 +655,34 @@
 			};
 			name = Debug;
 		};
-		5A77AEB52769306D00A37517 /* Release */ = {
+		5AC4DD58276105AE003F192C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A19DF76D76A5C5D4895D592B /* Pods-Scaivision.release.xcconfig */;
+			baseConfigurationReference = 7605D7421002E15D8E8ADE4B /* Pods-ScaiVision.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Scaivision/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = V5SBXJJP96;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Scaivision/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Usage";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Library Usage";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ScaiVision/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScaiVision;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take Photo and record Video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow to record automatically";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to save photo assets";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.scai.scai-vision";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scai.ScaiVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -655,9 +690,9 @@
 			};
 			name = Release;
 		};
-		5A77AEB72769306D00A37517 /* Debug */ = {
+		5AC4DD5A276105AE003F192C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDA50DE638F98F244109276B /* Pods-ScaivisionTests.debug.xcconfig */;
+			baseConfigurationReference = 99BDDE23E23D064E9D48714D /* Pods-ScaiVisionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -671,18 +706,18 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.scai.ScaivisionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scai.ScaiVisionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scaivision.app/Scaivision";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaiVision.app/ScaiVision";
 			};
 			name = Debug;
 		};
-		5A77AEB82769306D00A37517 /* Release */ = {
+		5AC4DD5B276105AE003F192C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6CEC7DA3C591F51D5E74871 /* Pods-ScaivisionTests.release.xcconfig */;
+			baseConfigurationReference = 20E699D397326F3C3E80F693 /* Pods-ScaiVisionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -696,18 +731,18 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.scai.ScaivisionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scai.ScaiVisionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scaivision.app/Scaivision";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaiVision.app/ScaiVision";
 			};
 			name = Release;
 		};
-		5A77AEBA2769306D00A37517 /* Debug */ = {
+		5AC4DD5D276105AE003F192C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 323E5D97BA4B819827190026 /* Pods-Scaivision-ScaivisionUITests.debug.xcconfig */;
+			baseConfigurationReference = 7CC0D8B605237A1C0101AD2E /* Pods-ScaiVision-ScaiVisionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -719,18 +754,18 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.scai.ScaivisionUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scai.ScaiVisionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Scaivision;
+				TEST_TARGET_NAME = ScaiVision;
 			};
 			name = Debug;
 		};
-		5A77AEBB2769306D00A37517 /* Release */ = {
+		5AC4DD5E276105AE003F192C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F942FD8ED747874AF0FFE9E2 /* Pods-Scaivision-ScaivisionUITests.release.xcconfig */;
+			baseConfigurationReference = 8B14EBC19AB0E538BD37B6EF /* Pods-ScaiVision-ScaiVisionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -742,55 +777,55 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.scai.ScaivisionUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scai.ScaiVisionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Scaivision;
+				TEST_TARGET_NAME = ScaiVision;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A77AE8A2769306A00A37517 /* Build configuration list for PBXProject "Scaivision" */ = {
+		5AC4DD27276105AA003F192C /* Build configuration list for PBXProject "ScaiVision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A77AEB12769306D00A37517 /* Debug */,
-				5A77AEB22769306D00A37517 /* Release */,
+				5AC4DD54276105AE003F192C /* Debug */,
+				5AC4DD55276105AE003F192C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A77AEB32769306D00A37517 /* Build configuration list for PBXNativeTarget "Scaivision" */ = {
+		5AC4DD56276105AE003F192C /* Build configuration list for PBXNativeTarget "ScaiVision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A77AEB42769306D00A37517 /* Debug */,
-				5A77AEB52769306D00A37517 /* Release */,
+				5AC4DD57276105AE003F192C /* Debug */,
+				5AC4DD58276105AE003F192C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A77AEB62769306D00A37517 /* Build configuration list for PBXNativeTarget "ScaivisionTests" */ = {
+		5AC4DD59276105AE003F192C /* Build configuration list for PBXNativeTarget "ScaiVisionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A77AEB72769306D00A37517 /* Debug */,
-				5A77AEB82769306D00A37517 /* Release */,
+				5AC4DD5A276105AE003F192C /* Debug */,
+				5AC4DD5B276105AE003F192C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A77AEB92769306D00A37517 /* Build configuration list for PBXNativeTarget "ScaivisionUITests" */ = {
+		5AC4DD5C276105AE003F192C /* Build configuration list for PBXNativeTarget "ScaiVisionUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A77AEBA2769306D00A37517 /* Debug */,
-				5A77AEBB2769306D00A37517 /* Release */,
+				5AC4DD5D276105AE003F192C /* Debug */,
+				5AC4DD5E276105AE003F192C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5A77AE872769306A00A37517 /* Project object */;
+	rootObject = 5AC4DD24276105AA003F192C /* Project object */;
 }

@@ -1,21 +1,23 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Scaivision' do
+target 'ScaiVision' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Scaivision
+  # Pods for ScaiVision
 
-  target 'ScaivisionTests' do
+
+  target 'ScaiVisionTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'ScaivisionUITests' do
+  target 'ScaiVisionUITests' do
     # Pods for testing
   end
   pod 'AWSS3'
   pod 'AWSCognito'
   pod 'AWSCore'
+  pod 'SVProgressHUD'
 end

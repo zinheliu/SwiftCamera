@@ -1,12 +1,15 @@
 //
 //  ScaiModel.swift
-//  Scaivision
+//  ScaiVision
 //
-//  Created by Liu on 2021/12/17.
+//  Created by Liu on 2021/12/13.
 //
 
 import Foundation
 
 class ScaiModel{
-    var file: String = ""
+    var id: Int = 0
+    var tag: [String] = []
+    var safety_concern: String = ""
+    var safety_guideline: String = ""
 }

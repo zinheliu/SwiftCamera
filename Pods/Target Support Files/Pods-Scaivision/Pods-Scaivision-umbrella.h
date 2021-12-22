@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ScaivisionVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ScaivisionVersionString[];
+FOUNDATION_EXPORT double Pods_ScaiVisionVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ScaiVisionVersionString[];
 

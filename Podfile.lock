@@ -4,23 +4,27 @@ PODS:
   - AWSCore (2.19.1)
   - AWSS3 (2.19.1):
     - AWSCore (= 2.19.1)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - AWSCognito
   - AWSCore
   - AWSS3
+  - SVProgressHUD
 
 SPEC REPOS:
   trunk:
     - AWSCognito
     - AWSCore
     - AWSS3
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
   AWSCognito: f50de600804941d083af37a7568905f31a774727
   AWSCore: 55c154ae27efc5c98bdc30a0eeea5a35d10a2ab5
   AWSS3: 2272253b098d07803af8dd20ce6ce7302bcffb47
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 6e18db674e2db5e3dab26b63cc78634bb10c43f9
+PODFILE CHECKSUM: f9b5064e37d15022101a8f29b71957e6ceaa7533
 
 COCOAPODS: 1.11.2

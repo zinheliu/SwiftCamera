@@ -1,13 +1,13 @@
 //
-//  ScaivisionUITestsLaunchTests.swift
-//  ScaivisionUITests
+//  ScaiVisionUITestsLaunchTests.swift
+//  ScaiVisionUITests
 //
-//  Created by Liu on 2021/12/15.
+//  Created by Liu on 2021/12/8.
 //
 
 import XCTest
 
-class ScaivisionUITestsLaunchTests: XCTestCase {
+class ScaiVisionUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
