@@ -30,6 +30,7 @@ class InfoViewController : UIViewController
     var currentOrientationType: OrientationType?
     
     // Storyboard Variables
+    @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var mediaView: UIView!
     @IBOutlet weak var tagCollectionView: UICollectionView!
     @IBOutlet weak var descriptionTableView: UITableView!
@@ -51,6 +52,7 @@ class InfoViewController : UIViewController
     @IBOutlet weak var descriptionTableViewLeading: NSLayoutConstraint!
     @IBOutlet weak var descriptionTableViewHeight: NSLayoutConstraint!
     
+    
     override func viewDidLoad() {
         
         // Check the current device types and orientation types
@@ -68,7 +70,7 @@ class InfoViewController : UIViewController
         
         
         
-        
+        backButton.setImage(UIImage(systemName: "arrowshape.turn.up.backward.fill"), for: .normal)
         
         // Call ScaiAPI with filePath
         ScaiAPIManager().getInfo(withFilePath: filePath){(data) in}
@@ -141,6 +143,13 @@ class InfoViewController : UIViewController
         }
         
         configureUI()
+    }
+    
+    @IBAction func backButtonPressed(_ sender: Any) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.window?.rootViewController = vc
+        appDelegate.window?.makeKeyAndVisible()
     }
 }
 
